@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="stylecontact.css">
+    <title>Document</title>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <h4>RACHID</h4>
+                <h4>Abderrahmane</h4>
+            </div>
+            <div class="topnav">
+                <a class="active" href="Accueil.html">HOME</a>
+                <a href="cv.html">CV</a>
+                <a href="projets.html">PROJECTS</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+            <div class="icons">
+                <div></div>
+            </div>
+        </div>
+    </header>
+    <main class="main-area">
+        <div class="title">
+            <h1>CONTACT</h1>
+        </div>
+        <div class="contact-inf">
+            <div class="touch">
+                <h4>STAY IN TOUCH</h4>
+                <p>abderrahmane.rachid10@gmail.com</p>
+                <p>+33 664 470 963</p>
+            </div>
+            <div class="social">
+                <h4>SOCIAL</h4>
+                <p><a href="#">LinekdIn</a></p>
+            </div>
+            <div class="address">
+                <h4>ADRESS</h4>
+                <p>71 AV Karl Marx</p>
+                <p>Villejuif</p>
+                <p>98400</p>
+            </div>
+        </div>
+        <div class="msg-area">
+
+            <div class="msg-title">
+                <h2>LEAVE YOUR MESSAGE</h2>
+            </div>
+            <form>
+                <div class="msg-input">
+                    <div class="name">
+                        <label for="name">NAME</label><br>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="email">
+                        <label for="email">E-Mail</label><br>
+                        <input type="email" id="email" name="email" placeholder="@" required
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                    </div>
+                    <div class="text-area">
+                        <textarea id="message" name="message" placeholder="Your message" 
+                            maxlength="2000" required></textarea>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button type="submit" id="btn-submit">SEND</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <h4>Copyright © 2022 by RACHID. All rights reserved.</h4>
+        </div>
+    </footer>
+</body>
+
+</html>
